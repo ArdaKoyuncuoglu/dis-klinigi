@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaya Diş Kliniği</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; color: #333; }
+
+        /* HEADER */
+        header {
+            background: #1a73e8;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 { font-size: 24px; }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #1a73e8, #0d47a1);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 { font-size: 42px; margin-bottom: 20px; }
+        .hero p { font-size: 20px; margin-bottom: 30px; }
+        .hero a {
+            background: white;
+            color: #1a73e8;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* HİZMETLER */
+        .hizmetler {
+            padding: 60px 40px;
+            text-align: center;
+            background: #f9f9f9;
+        }
+        .hizmetler h2 { font-size: 32px; margin-bottom: 40px; color: #1a73e8; }
+        .kartlar {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .kart {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            width: 220px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .kart .ikon { font-size: 40px; margin-bottom: 15px; }
+        .kart h3 { font-size: 18px; color: #333; }
+
+        /* İLETİŞİM */
+        .iletisim {
+            padding: 60px 40px;
+            text-align: center;
+        }
+        .iletisim h2 { font-size: 32px; margin-bottom: 20px; color: #1a73e8; }
+        .iletisim p { font-size: 18px; margin-bottom: 10px; }
+        .iletisim a {
+            display: inline-block;
+            margin-top: 20px;
+            background: #1a73e8;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🦷 Kaya Diş Kliniği</h1>
+        <nav>
+            <a href="#hizmetler">Hizmetler</a>
+            <a href="#iletisim">İletişim</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Sağlıklı Gülüşler İçin Buradasınız</h2>
+        <p>Modern ekipmanlar ve uzman kadromuzla hizmetinizdeyiz.</p>
+        <a href="tel:05001234567">📞 Hemen Ara</a>
+    </div>
+
+    <div class="hizmetler" id="hizmetler">
+        <h2>Hizmetlerimiz</h2>
+        <div class="kartlar">
+            <div class="kart">
+                <div class="ikon">🦷</div>
+                <h3>Diş Dolgusu</h3>
+            </div>
+            <div class="kart">
+                <div class="ikon">✨</div>
+                <h3>Diş Beyazlatma</h3>
+            </div>
+            <div class="kart">
+                <div class="ikon">😁</div>
+                <h3>İmplant</h3>
+            </div>
+            <div class="kart">
+                <div class="ikon">🔍</div>
+                <h3>Genel Muayene</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="iletisim" id="iletisim">
+        <h2>Bize Ulaşın</h2>
+        <p>📍 Atatürk Cad. No:12, İstanbul</p>
+        <p>📞 0500 123 45 67</p>
+        <p>🕐 Pazartesi - Cumartesi: 09:00 - 18:00</p>
+        <a href="tel:05001234567">Randevu Al</a>
+    </div>
+
+    <footer>
+        <p>© 2026 Kaya Diş Kliniği. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
